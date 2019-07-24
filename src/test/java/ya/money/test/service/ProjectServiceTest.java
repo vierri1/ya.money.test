@@ -20,13 +20,10 @@ import ya.money.test.exception.TaskNameConstraintException;
 import ya.money.test.repository.ProjectRepository;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.times;
 import static ya.money.test.data.ProjectTestData.PROJECTS;
 
