@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="projects.xsd">
+    <project>
+        <key>BACK</key>
+        <summary>Backend project</summary>
+        <tasks>
+            <task>
+                <key>BACK-1</key>
+                <summary>First task</summary>
+                <description>Task description</description>
+            </task>
+            <task>
+                <key>BACK-2</key>
+                <summary>2 task</summary>
+                <description>Task description 2</description>
+            </task>
+            <task>
+                <key>BACK-3</key>
+                <summary>3 task</summary>
+                <description>Task description 3</description>
+            </task>
+        </tasks>
+    </project>
+    <project>
+        <key>BACK2</key>
+        <summary>Backend project2</summary>
+        <tasks>
+            <task>
+                <key>BACK2-1</key>
+                <summary>2 task</summary>
+                <description>Task description 21</description>
+            </task>
+            <task>
+                <key>BACK2-2</key>
+                <summary>task2</summary>
+                <description>Task description 22</description>
+            </task>
+            <task>
+                <key>BACK2-3</key>
+                <summary>task3</summary>
+                <description>Task description 23</description>
+            </task>
+        </tasks>
+    </project>
+</projects>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Загрузка проектов</title>
+</head>
+<body>
+<a type="button" href="/project">Загрузить проект</a>
+<table border="1" cellpadding="2">
+    <tr>
+        <th>Название проекта</th>
+        <th>Название задачи</th>
+        <th>Описание</th>
+    </tr>
+    <tr th:each="task : ${tasks}">
+        <td th:text="${task.projectKey}"></td>
+        <td th:text="${task.taskKey}"></td>
+        <td th:text="${task.description}"></td>
+    </tr>
+</table>
+</body>
+</html>
